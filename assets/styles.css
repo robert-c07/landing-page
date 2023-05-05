@@ -160,14 +160,14 @@ body{
 }
 
 .rectangle-shape{
-    width: 1047px;
+    width: 1000px !important;
     height: 619px;
     position: absolute;
     left: 450px;
     top: 1000px;
     background: #F4F9FF;
     border-radius: 150px 0px 0px 0px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 /* hero right side section end*/
@@ -285,6 +285,7 @@ body{
 
 .main-section{
     margin: 100px;
+    z-index: 1;
 }
 
 .main-section h1{
